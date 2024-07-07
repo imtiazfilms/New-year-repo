@@ -171,3 +171,84 @@
     text-decoration: none;
     text-align: center;
 }
+
+/* best offer container style */
+.best-offer-container{
+    width: 1320px;
+    height: 463px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    margin-top: 120px;
+}
+.comming-soon {
+    width: 393px;
+    height: 255px;
+    margin-right: 70px;
+    margin-top: 104px;
+    margin-bottom: 104px;
+}
+.comming-subtitel {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;   
+}
+.comming-titel {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    padding-top: 16px;
+    padding-bottom: 22px;
+}
+.comming-discription {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+.best-offer-image {
+    width: 370px;
+    height: 370px;
+    background-color: #FFFFFF;
+    border: 10px solid #FF0000;
+    border-radius: 50%;
+    margin: 0 auto;
+
+}
+.best-offer-image img{
+    width: 364.84px;
+    height: 364.84px;
+    margin: 0 auto;
+}
+.best-ofeer-2024 {
+    width: 276px;
+    height: 170px;
+    margin-left: 118px;
+}       
+
+.best-ofeer-2024-titel {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    padding-right: 149.67px;
+    padding-bottom: 16px;
+    
+
+}
+.best-ofeer-2024-discription {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+.best-offer-happy-new-year-image {
+    width: 140px;
+    height: 140px;
+    padding-top: 43px;
+    padding-right: 136px;
+}
