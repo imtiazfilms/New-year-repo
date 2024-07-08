@@ -252,3 +252,66 @@
     padding-top: 43px;
     padding-right: 136px;
 }
+/* holyday sell container stylr */
+.holyday-sell-container{
+    width: 1320px;
+    height: 986.07px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 120px;
+}
+.holyday-sell-content{
+    width: 1068px;
+    height: 260px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.holyday-sell-content-subtitel {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+.holyday-sell-content-titel {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    padding-bottom: 28px;
+}
+.holyday-sell-content-discription {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 64px;
+}
+.solid-colore {
+    width: 1320px;
+    height: 229px;
+    border-radius: 16px 0px 16px 16px;
+    background: rgb(255, 0, 0);
+    position: absolute;
+    bottom: 0%;
+    z-index: -1;
+}
+.gift-box{
+    width: 674.82px;
+    height: 577.96px;
+    padding: 64px 60.81px 84.11px 60.83px;
+    display: flex;
+}
+.discount {
+    width: 305.69px;
+    height: 305.69px;
+    margin-left: 180px;
+    margin-top: 110px;
+}
+.shopping-girl {
+   padding-right: 300px; 
+   position: absolute;
+   left: 73%;
+    top: 340px;
+   z-index: -1;
+}
