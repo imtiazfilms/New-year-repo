@@ -315,3 +315,106 @@
     top: 340px;
    z-index: -1;
 }
+
+/* portfolio section container style */
+.portfolio-section-container {
+    width: 1320px;
+    height: 1163px;
+    margin: 0 auto;
+    margin-top: 120.07px;
+    text-align: left;
+}
+.portfolio-subtitel {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 16px;
+    padding-right: 1128px;
+}
+.portfolio-titel {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 22px;
+    padding-right: 754px;
+}
+.portfolio-discription {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 48px;
+    padding-right: 424px;
+}
+.portfolio-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+.item {
+    width: 424px;
+    height: 450px;
+}
+.item img{
+    width: 100%;
+    height: 100%;
+}
+
+/* newsletter container styles */
+.newsletter-container {
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    margin: 0 auto;
+}
+.newsletter-content {
+    width: 896px;
+    height: 336px;
+    margin: 80px 212px 48px 212px;
+}
+.newsletter-content img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    border: 1px dashed grey;
+}
+.newsletter-titel {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+.newsletter-discription {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+#subscribe {
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+#subscribe a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+input {
+    width: 648px;
+    height: 72px;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    margin-top: 40px;
+}
